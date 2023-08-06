@@ -20,4 +20,9 @@ public class TestController {
 	public String test3() {
 		return "I'm test3";
 	}
+	
+	@GetMapping("/test4")
+	public String test4() {
+		return "I'm test4";
+	}
 }
