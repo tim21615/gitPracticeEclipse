@@ -30,4 +30,9 @@ public class TestController {
 	public String test6() {
 		return "I'm test6";
 	}
+	
+	@GetMapping("/test7")
+	public String test7() {
+		return "I'm test7";
+	}
 }
